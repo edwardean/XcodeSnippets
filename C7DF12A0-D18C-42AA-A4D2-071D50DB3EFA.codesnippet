@@ -3,25 +3,27 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>vdl</string>
+	<string>document</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>ClassImplementation</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>- (void)viewDidLoad {
-    [super viewDidLoad];
-    &lt;#code#&gt;
+	<string>- (NSString *)filePath
+{
+    NSString *docPath = [NSSearchPathForDirectoriesInDomains(NSDocumentDirectory, NSUserDomainMask, YES)objectAtIndex:0];
+    NSString *path = [docPath stringByAppendingPathComponent:@"&lt;#fileName#&gt;"];
+    return path;
 }
 </string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>73CEF780-41F2-4431-9CF9-B25AA48784C1</string>
+	<string>C7DF12A0-D18C-42AA-A4D2-071D50DB3EFA</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
 	<key>IDECodeSnippetSummary</key>
-	<string>Quickly type view did load snippet</string>
+	<string>document</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>View Did Load</string>
+	<string>document 取得路径</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>service</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>ClassImplementation</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>
+#pragma mark -
+#pragma mark 网络错误回调的方法
+//网络错误回调的方法
+- (void )requestDidFailed:(NSDictionary *)info{
+    
+    CCLog(@"function %s line=%d",__FUNCTION__,__LINE__);
+    NSString *meg =[info objectForKey:KEY_message];
+    
+    [UIQuickHelp showAlertViewWithTitle:@"温馨提醒" message:meg delegate:self cancelButtonTitle:@"知道了" otherButtonTitles:nil];
+    
+ 
+    
+}
+
+#pragma mark -
+#pragma mark 网络返回错误信息回调的方法
+//网络返回错误信息回调的方法
+- (void) requestDidFinishedWithFalseMessage:(NSDictionary *)info{
+    
+    
+    CCLog(@"function %s line=%d",__FUNCTION__,__LINE__);
+    NSString *meg =[info objectForKey:KEY_message];
+    
+    [UIQuickHelp showAlertViewWithTitle:@"温馨提醒" message:meg delegate:self cancelButtonTitle:@"知道了" otherButtonTitles:nil];
+    
+}
+
+
+#pragma mark -
+#pragma mark 网络正确回调的方法
+//网络正确回调的方法
+- (void) requestDidFinishedWithRightMessage:(NSDictionary *)inf{
+    
+    
+    
+    
+    
+    
+    
+}
+
+</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>38CB135D-FDCC-42F1-9AFA-E1526D8692E1</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<key>IDECodeSnippetSummary</key>
+	<string>处理网络请求 执行的回调方法</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>ServiceDelegate 快捷方式 </string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>2</integer>
+</dict>
+</plist>

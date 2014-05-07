@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>expend</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>CodeExpression</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>CABasicAnimation *animation=[CABasicAnimation animationWithKeyPath:@"bounds.size"];
+
+[animation setFromValue:[NSValue valueWithCGSize:CGSizeMake(0.1, 0.5)]];
+[animation setToValue:[NSValue valueWithCGSize:&lt;#someView#&gt;.bounds.size]];
+[animation setDelegate:self];
+[animation setDuration:2.0];
+[animation setRepeatCount:3]; //重复次数
+[animation setAutoreverses:YES]; 
+[&lt;#someView#&gt;.layer addAnimation:animation forKey:@"拉伸动画"];
+
+</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>0A0072E6-84DA-43C6-993B-5505C63FB388</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<key>IDECodeSnippetSummary</key>
+	<string>可以放大和缩小-&gt;expend</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>动画 CALayer 拉伸</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>2</integer>
+</dict>
+</plist>

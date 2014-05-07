@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>translate</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>CodeExpression</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>//取得仿射变换矩阵
+CGAffineTransform transform;
+
+//参照来做平移操作
+transform=CGAffineTransformTranslate(&lt;#someView#&gt;.transform, 10, 10);
+
+
+//直接平移操作
+//transform=CGAffineTransformMakeTranslation(10, 10);
+//}
+
+[UIView beginAnimations:nil context: nil];
+//设置动画持续时间
+[UIView setAnimationDuration:1.4];
+
+&lt;#someView#&gt;.transform=transform;
+//提交动画
+[UIView commitAnimations];</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>E3996C95-D0B7-4CD3-8213-F710F5826BF5</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<key>IDECodeSnippetSummary</key>
+	<string>改变transform-&gt;translate</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>UIView动画 平移操作</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>2</integer>
+</dict>
+</plist>

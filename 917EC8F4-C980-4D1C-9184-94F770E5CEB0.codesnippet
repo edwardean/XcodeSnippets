@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>move</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>CodeExpression</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>//视图移动动画
+
+//设置开始动画
+[UIView beginAnimations:nil context:nil];
+//设置动画持续时间
+[UIView setAnimationDuration:2];
+//设置动画的代理
+[UIView setAnimationDelegate:self];
+
+//设置动画完成后，需要调用的方法
+
+//这是系统推荐的方法，当然可以自己定义
+//[UIView setAnimationDidStopSelector:@selector(animationDidStop:finished: context:)];
+
+//view的frame和center属性都可以改变来移动
+&lt;#someView#&gt;.center=CGPointMake(&lt;#CGFloat x#&gt;, &lt;#CGFloat y#&gt;);
+
+//或是frame
+&lt;#someView#&gt;.frame=CGRectMake(&lt;#CGFloat x#&gt;, &lt;#CGFloat y#&gt;, &lt;#CGFloat width#&gt;, &lt;#CGFloat height#&gt;);
+
+//提交动画
+[UIView commitAnimations];
+</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>917EC8F4-C980-4D1C-9184-94F770E5CEB0</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<key>IDECodeSnippetSummary</key>
+	<string>改变center的方法来移动视图-&gt;move</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>UIView移动动画</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>2</integer>
+</dict>
+</plist>

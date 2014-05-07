@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>cclog</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>Preprocessor</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>//是否是iPhone5
+#define iPhone5 ([UIScreen instancesRespondToSelector:@selector(currentMode)] ? CGSizeEqualToSize(CGSizeMake(640, 1136), [[UIScreen mainScreen] currentMode].size) : NO)
+
+
+//当前系统版本
+#define CURRENT_SYSTEM_VERSION [[UIDevice currentDevice].systemVersion integerValue]
+
+
+#ifdef DEBUG
+
+#define CCLog(format,...) NSLog(format,##__VA_ARGS__)
+#define MMRelease(object) [object release]
+
+#else
+
+#define CCLog(format,...)
+#define MMRelease(object) [object release],object=nil
+</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>26D1684A-73EA-4F56-950C-42FA622907E9</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<key>IDECodeSnippetSummary</key>
+	<string>预处理 一些实用宏定义--&gt;&gt;&gt;cclog</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>CCLog定义 是否是iphone5</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>2</integer>
+</dict>
+</plist>

@@ -3,25 +3,25 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>vwd</string>
+	<string>debug</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>ClassImplementation</string>
+		<string>TopLevel</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>- (void)viewWillDisappear:(BOOL)animated {
-    &lt;# code #&gt;
-    
-    [super viewWillDisappear:animated];
-}</string>
+	<string>#ifdef DEBUG
+#define CCLog(format,...) NSLog(format,##__VA_ARGS__)
+#else
+#define CCLog(format,...)
+#endif</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>2D3CCD83-4654-4585-8B1E-85103FCFF706</string>
+	<string>3F8A924B-F017-4290-AF0F-072090F8A2F8</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
 	<key>IDECodeSnippetSummary</key>
-	<string>quickly define method</string>
+	<string>屏蔽调试信息 快捷输出</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>View Will Dissappear</string>
+	<string>debug</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

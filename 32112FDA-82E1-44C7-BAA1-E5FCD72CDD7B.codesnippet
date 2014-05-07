@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>draw</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>CodeExpression</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>
+    //获得当前上下文
+    CGContextRef context=UIGraphicsGetCurrentContext();
+    //设置画笔颜色
+    CGContextSetStrokeColorWithColor(context, [UIColor redColor].CGColor);
+    //设置画笔粗细
+    CGContextSetLineWidth(context, 2.0);
+    
+    //画矩形
+    CGContextAddRect(context, myRect);
+    //画直线
+         
+    /*******
+     
+     //移动到一个点
+     CGContextMoveToPoint(context, point1.x, point1.y);
+     
+     //在第二个点和第一个点之间添加一条直线
+     
+     CGContextAddLineToPoint(context, point2.x, point2.y);
+
+     
+     ********/
+    //开始绘图
+    CGContextStrokePath(context);
+</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>32112FDA-82E1-44C7-BAA1-E5FCD72CDD7B</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<key>IDECodeSnippetSummary</key>
+	<string>基本画图步骤-&gt;draw</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>画图-线段 矩形</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>2</integer>
+</dict>
+</plist>

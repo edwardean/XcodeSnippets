@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>open</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>ClassImplementation</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>-(FMDatabase *) openDatabase
+{
+    //寻找路径
+    NSString *doc_path=[NSSearchPathForDirectoriesInDomains(NSDocumentDirectory, NSUserDomainMask, YES)objectAtIndex:0];
+    //数据库路径
+    NSString *sqlPath=[doc_path stringByAppendingPathComponent:@"ad.sqlite"];
+    NSLog(@"%@",sqlPath);
+    
+    //原始路径
+    NSString *orignFilePath = [[NSBundle mainBundle] pathForResource:@"ad" ofType:@"sqlite"];
+    
+    
+    
+    
+    NSLog(@"原始地址:%@",orignFilePath);
+    
+    NSFileManager *fm = [NSFileManager defaultManager];
+    if([fm fileExistsAtPath:sqlPath] == NO)//如果doc下没有数据库，从bundle里面拷贝过来
+    {
+        
+        
+        NSError *err = nil;
+        if([fm copyItemAtPath:orignFilePath toPath:sqlPath error:&amp;err] == NO)//如果拷贝失败
+        {
+            NSLog(@"open database error %@",[err localizedDescription]);
+            return nil;
+        }
+        
+        NSLog(@"document 下没有数据库文件，执行拷贝工作");
+    }
+    
+    //初始化数据库
+    FMDatabase *db=[FMDatabase databaseWithPath:sqlPath];
+    
+    //这个方法一定要执行
+    if (![db open]) {
+        NSLog(@"数据库打开失败！");
+        return db;
+    }
+    
+    
+    NSLog(@"打开成功");
+    NSLog(@"db=%@",db);
+    return  db;
+}
+</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>26501AA1-1D86-4D37-B932-863DB4DC9482</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<key>IDECodeSnippetSummary</key>
+	<string>数据库快捷open</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>open数据库</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>2</integer>
+</dict>
+</plist>

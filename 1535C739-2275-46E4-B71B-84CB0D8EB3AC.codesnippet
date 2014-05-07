@@ -1,27 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>vwd</string>
+	<string>ppp</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>ClassImplementation</string>
+		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>- (void)viewWillDisappear:(BOOL)animated {
-	    &lt;# code #&gt;
-	    
-	    [super viewWillDisappear:animated];
-	}</string>
+	<string>#pragma mark -
+#pragma mark &lt;#label#&gt;</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>2E5864FA-15EA-4019-AF63-B1704E939235</string>
+	<string>1535C739-2275-46E4-B71B-84CB0D8EB3AC</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
 	<key>IDECodeSnippetSummary</key>
-	<string>quickly define method</string>
+	<string>代码分段-&gt;ppp</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>View Will Dissappear</string>
+	<string>Pragma line and name 代码篱笆</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

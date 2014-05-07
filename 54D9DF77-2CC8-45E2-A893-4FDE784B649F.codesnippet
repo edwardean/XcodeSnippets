@@ -1,27 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>vwa</string>
+	<string>eee</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>ClassImplementation</string>
+		<string>TopLevel</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>- (void)viewWillAppear:(BOOL)animated {
-	    [super viewWillAppear:animated];
-	    
-	    &lt;# code #&gt;
-	}</string>
+	<string>@interface &lt;#className#&gt; ()
+
+@end</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>0F582CBB-C30C-4BA8-BED3-B4442152FB4E</string>
+	<string>54D9DF77-2CC8-45E2-A893-4FDE784B649F</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
 	<key>IDECodeSnippetSummary</key>
-	<string>quickly define method</string>
+	<string>Class extension interface-&gt;eee</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>View Will Appear</string>
+	<string>Class extension interface</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

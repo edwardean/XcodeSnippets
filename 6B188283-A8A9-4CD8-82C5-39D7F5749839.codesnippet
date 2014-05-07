@@ -3,25 +3,21 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>vdu</string>
+	<string>rrr</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>ClassImplementation</string>
+		<string>ClassInterfaceMethods</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>- (void)viewDidUnload {
-    [super viewDidUnload];
-    &lt;#code#&gt;
-}
-</string>
+	<string>@property(nonatomic,retain)&lt;#propertyType#&gt; *&lt;#propertyNmae#&gt;;</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>7AD1FC7E-F72D-4CE6-933D-98FAD6A8C721</string>
+	<string>6B188283-A8A9-4CD8-82C5-39D7F5749839</string>
 	<key>IDECodeSnippetLanguage</key>
-	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<string>Xcode.SourceCodeLanguage.Objective-C-Plus-Plus</string>
 	<key>IDECodeSnippetSummary</key>
-	<string>Quick ViewDidUnload declaration</string>
+	<string>属性声明_指针类型-&gt;rrr</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>View Did Unload</string>
+	<string>Property_retain</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

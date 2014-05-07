@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>retate</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>CodeExpression</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>//取得仿射变换矩阵
+CGAffineTransform transform;
+
+//参照来做仿射
+transform=CGAffineTransformRotate(bigImageView.transform, M_PI/6.0);
+
+//直接仿射一定角度
+//transform=CGAffineTransformMakeRotation(M_PI/6.0);
+
+[UIView beginAnimations:nil context: nil];
+//设置动画持续时间
+[UIView setAnimationDuration:1.4];
+
+&lt;#someView#&gt;.transform=transform;
+//提交动画
+[UIView commitAnimations];</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>66AA3083-175C-44C3-9144-898A2E4A12C4</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<key>IDECodeSnippetSummary</key>
+	<string>改变transform来改变动画效果-&gt;retate</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>UIView动画 旋转</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>2</integer>
+</dict>
+</plist>

@@ -3,22 +3,35 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>void</string>
+	<string>scale</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>ClassInterfaceMethods</string>
-		<string>ClassImplementation</string>
+		<string>CodeExpression</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>- (void)&lt;#metod name#&gt; </string>
+	<string>CGAffineTransform  transform;
+
+//有参照
+transform=CGAffineTransformScale(&lt;#someView#&gt;.transform, 1.2, 1.2);
+
+//无参照
+//transform=CGAffineTransformMakeScale(1.2, 1.2);
+//}
+[UIView beginAnimations:nil context:nil];
+[UIView setAnimationDuration:1.5];
+&lt;#someView#&gt;.transform=transform;
+//提交动画
+[UIView commitAnimations];
+
+</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>FB099D32-6D1A-4B78-896C-8F64BD2C7432</string>
+	<string>2915A0A2-B344-422C-BC17-2DCC7CDB702B</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
 	<key>IDECodeSnippetSummary</key>
-	<string>Quickly declare a void method</string>
+	<string>缩放-&gt;scale</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>Void method declaration</string>
+	<string>UIView动画 缩放效果</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

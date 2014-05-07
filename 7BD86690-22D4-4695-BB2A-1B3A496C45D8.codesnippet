@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>invert</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>CodeExpression</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>CGAffineTransform  transform;
+
+//表示返回两个矩阵的乘积
+transform=CGAffineTransformConcat(&lt;#someView#&gt;.transform, &lt;#someView#&gt;.transform);
+
+//表示一个元矩阵
+transform=CGAffineTransformIdentity;
+//无参照
+//transform=CGAffineTransformInvert(&lt;#someView#&gt;.transform);
+
+[UIView beginAnimations:nil context:nil];
+//动画持续时间
+[UIView setAnimationDuration:1.2];
+&lt;#someView#&gt;.transform=transform;
+//提交动画
+[UIView commitAnimations];
+</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>7BD86690-22D4-4695-BB2A-1B3A496C45D8</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<key>IDECodeSnippetSummary</key>
+	<string>利用转置矩阵 -&gt;invert</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>UIView动画 回转操作</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>2</integer>
+</dict>
+</plist>

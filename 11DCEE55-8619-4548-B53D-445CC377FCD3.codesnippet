@@ -3,25 +3,21 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>vwa</string>
+	<string>ccc</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>ClassImplementation</string>
+		<string>ClassInterfaceMethods</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>- (void)viewWillAppear:(BOOL)animated {
-    [super viewWillAppear:animated];
-    
-    &lt;# code #&gt;
-}</string>
+	<string>@property(nonatomic,copy)&lt;#propertyType#&gt; *&lt;#propertyNmae#&gt;;</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>52731633-87D0-4ED9-B6A9-961D2AD3EA57</string>
+	<string>11DCEE55-8619-4548-B53D-445CC377FCD3</string>
 	<key>IDECodeSnippetLanguage</key>
-	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<string>Xcode.SourceCodeLanguage.Objective-C-Plus-Plus</string>
 	<key>IDECodeSnippetSummary</key>
-	<string>quickly define method</string>
+	<string>copy 属性 </string>
 	<key>IDECodeSnippetTitle</key>
-	<string>View Will Appear</string>
+	<string>属性 copy </string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

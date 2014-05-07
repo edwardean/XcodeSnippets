@@ -1,27 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>vdu</string>
+	<string>aaa</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>ClassImplementation</string>
+		<string>ClassInterfaceMethods</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>- (void)viewDidUnload {
-	    [super viewDidUnload];
-	    &lt;#code#&gt;
-	}
-	</string>
+	<string>@property(nonatomic,assign)&lt;#propertyType#&gt; &lt;#propertyNmae#&gt;;</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>F32E5BBF-BC1C-4779-86E3-AA381740710B</string>
+	<string>B4892662-26DB-4066-B9E7-3D684A7B711D</string>
 	<key>IDECodeSnippetLanguage</key>
-	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<string>Xcode.SourceCodeLanguage.Objective-C-Plus-Plus</string>
 	<key>IDECodeSnippetSummary</key>
-	<string>Quick ViewDidUnload declaration</string>
+	<string>属性声明_基本类型-&gt;aaa</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>View Did Unload</string>
+	<string>Property_assign</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
