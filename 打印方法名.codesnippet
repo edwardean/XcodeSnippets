@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>nslogmethod</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>All</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>  NSLog(@"%@ - %@", NSStringFromClass([self class]), NSStringFromSelector(_cmd));</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>056C01DC-6791-4CFA-BEC5-E55E8B4A4A73</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<key>IDECodeSnippetSummary</key>
+	<string>打印方法名:@"%@ - %@", NSStringFromClass([self class]), NSStringFromSelector(_cmd)</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>打印方法名</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>2</integer>
+</dict>
+</plist>
