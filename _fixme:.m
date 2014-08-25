@@ -1,10 +1,10 @@
-// _todo_:
-// A todo marked with my initials
+// // FIXME:
+// // FIXME: <#This is broken#>
 //
 // IDECodeSnippetCompletionPrefix: todo
 // IDECodeSnippetCompletionScopes: [All]
-// IDECodeSnippetIdentifier: FA061445-D1AC-4118-A6CB-8F38BC7043E9
+// IDECodeSnippetIdentifier: 0FB160DA-ACA5-47A2-B084-DF9ED6369057
 // IDECodeSnippetLanguage: Xcode.SourceCodeLanguage.Objective-C
 // IDECodeSnippetUserSnippet: 1
 // IDECodeSnippetVersion: 2
-// TODO: <#Note#>
+// FIXME: <#This is broken#>

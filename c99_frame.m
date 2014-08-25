@@ -1,5 +1,9 @@
 // C99 frame
 // C99 frame:CGRect frame = (CGRect){
+//
+// IDECodeSnippetIdentifier: 91B172A9-91D8-4A59-B684-C0165CCDA49D
+// IDECodeSnippetLanguage: Xcode.SourceCodeLanguage.Objective-C
+// IDECodeSnippetUserSnippet: 1
 	        .origin.x = <#x#>,
 	        .origin.y = <#y#>,
 	        .size.width =  <#width#>,

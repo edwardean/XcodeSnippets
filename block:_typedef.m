@@ -1,6 +1,7 @@
-// BLOCK: Typedef
+// block:_typedef
 // Typedef a new block:
 //
+// BLOCK: Typedef
 // IDECodeSnippetCompletionPrefix: block
 // IDECodeSnippetCompletionScopes: [All]
 // IDECodeSnippetIdentifier: EC7ADE93-9B89-4E31-8B42-4E2887BF46F5

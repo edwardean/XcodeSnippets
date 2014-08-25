@@ -7,7 +7,6 @@
 // IDECodeSnippetLanguage: Xcode.SourceCodeLanguage.Objective-C
 // IDECodeSnippetUserSnippet: 1
 // IDECodeSnippetVersion: 2
-//取得仿射变换矩阵
 CGAffineTransform transform;
 
 //参照来做仿射

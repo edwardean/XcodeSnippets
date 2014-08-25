@@ -1,5 +1,5 @@
-// 属性 copy 
-// copy 属性 
+// 属性 copy
+// copy 属性
 //
 // IDECodeSnippetCompletionPrefix: ccc
 // IDECodeSnippetCompletionScopes: [ClassInterfaceMethods]

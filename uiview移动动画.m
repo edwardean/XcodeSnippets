@@ -7,7 +7,6 @@
 // IDECodeSnippetLanguage: Xcode.SourceCodeLanguage.Objective-C
 // IDECodeSnippetUserSnippet: 1
 // IDECodeSnippetVersion: 2
-//视图移动动画
 
 //设置开始动画
 [UIView beginAnimations:nil context:nil];

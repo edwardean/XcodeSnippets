@@ -1,4 +1,4 @@
-//  动画 CALayer 透明度
+// 动画 CALayer 透明度
 // 改变透明度->toumdu
 //
 // IDECodeSnippetCompletionPrefix: toumdu

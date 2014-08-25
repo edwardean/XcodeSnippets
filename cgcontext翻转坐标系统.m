@@ -7,7 +7,6 @@
 // IDECodeSnippetLanguage: Xcode.SourceCodeLanguage.Objective-C
 // IDECodeSnippetUserSnippet: 1
 // IDECodeSnippetVersion: 2
-//CGContextRef context = UIGraphicsGetCurrentContext();
     
     //Flip he coordinate system
     CGContextSetTextMatrix(context, CGAffineTransformIdentity);

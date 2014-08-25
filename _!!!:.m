@@ -1,10 +1,10 @@
-// #pragma
-// pragma分隔符
+// // !!!:
+// // !!!: <#Note#>
 //
-// IDECodeSnippetCompletionPrefix: pra
+// IDECodeSnippetCompletionPrefix: todo
 // IDECodeSnippetCompletionScopes: [All]
-// IDECodeSnippetIdentifier: 4EB3839E-88A8-4F53-9E04-94AE1C1D23DF
+// IDECodeSnippetIdentifier: E4D07281-5850-4844-8E0D-7ADFC141B3B7
 // IDECodeSnippetLanguage: Xcode.SourceCodeLanguage.Objective-C
 // IDECodeSnippetUserSnippet: 1
 // IDECodeSnippetVersion: 2
-#pragma mark - 
+// !!!: <#Note#>

@@ -1,4 +1,4 @@
-// ServiceDelegate 快捷方式 
+// ServiceDelegate 快捷方式
 // 处理网络请求 执行的回调方法
 //
 // IDECodeSnippetCompletionPrefix: service

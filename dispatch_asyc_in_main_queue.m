@@ -1,6 +1,7 @@
 // dispatch_asyc in main queue
-// GCD:dispatch_asyc in main queue
+// 
 //
+// GCD: dispatch_asyc in main queue
 // IDECodeSnippetCompletionPrefix: dispatch
 // IDECodeSnippetCompletionScopes: [All]
 // IDECodeSnippetIdentifier: 1B268946-74B0-41AB-8923-243572E93099
